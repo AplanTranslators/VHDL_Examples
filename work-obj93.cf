@@ -1,0 +1,10 @@
+v 4
+file . "case_statements/case_statement_with_enum.vhd" "8abc89714ef5971add618f3e892bbe4b8fa83e89" "20250622193240.932":
+  entity case_enum at 1( 0) + 0 on 15;
+  architecture behav of case_enum at 11( 177) + 0 on 16;
+file . "case_statements/single_value_case_statement_1.vhd" "a98b4287fdc57a572d909ce9f5c4d3a4644261a7" "20250622192938.886":
+  entity case_example at 1( 0) + 0 on 11;
+  architecture behav of case_example at 12( 300) + 0 on 12;
+file . "case_statements/range_case_statement.vhd" "8f28babd5fd7670679470d8e2719893f5911f61a" "20250622193128.153":
+  entity case_range at 1( 0) + 0 on 13;
+  architecture behav of case_range at 11( 163) + 0 on 14;
