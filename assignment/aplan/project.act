@@ -4,5 +4,25 @@ assign_1 = (
 		(assignment_example.behav_0.a = 0)),
 assign_2 = (
 		(1)->
+		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (a<=1;)';")
+		(assignment_example.behav_0.a = 1)),
+assign_3 = (
+		(1)->
+		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (b:=5;)';")
+		(assignment_example.behav_0.b = 5)),
+assign_4 = (
+		(1)->
+		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (Z<=AandB;)';")
+		(assignment_example.Z_0 = assignment_example.A_0 && assignment_example.B_0)),
+assign_5 = (
+		(1)->
 		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (signala:std_logic:=0;)';")
-		(assignment_example.struct_0.a = 0))
+		(assignment_example.struct_0.a = 0)),
+assign_6 = (
+		(1)->
+		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (a<=1;)';")
+		(assignment_example.struct_0.a = 1)),
+assign_7 = (
+		(1)->
+		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (c:=5;)';")
+		(assignment_example.struct_0.c = 5))
