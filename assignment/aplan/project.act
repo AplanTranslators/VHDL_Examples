@@ -1,4 +1,8 @@
 assign_1 = (
 		(1)->
 		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (signala:std_logic:=0;)';")
-		(assignment_example.a_1 = 0))
+		(assignment_example.behav_0.a = 0)),
+assign_2 = (
+		(1)->
+		("ASSIGNMENT_EXAMPLE#assignment_example:action 'assign (signala:std_logic:=0;)';")
+		(assignment_example.struct_0.a = 0))
