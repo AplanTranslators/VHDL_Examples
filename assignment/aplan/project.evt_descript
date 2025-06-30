@@ -1,0 +1,4 @@
+events(
+	s_A_0:obj(x1:bool);
+	s_B_0:obj(x1:bool);
+);

@@ -1,0 +1,5 @@
+B_ASSIGNMENT_EXAMPLE = {BEHAV_1 || STRUCT_3},
+BEHAV_1 = assign_1.PROCESS_2,
+PROCESS_2 = Sensetive(assign_2).assign_3.Sensetive(assign_4),
+STRUCT_3 = assign_5.PROCESS_4,
+PROCESS_4 = Sensetive(assign_6).assign_7.Sensetive(assign_4)
