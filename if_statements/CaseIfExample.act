@@ -1,0 +1,8 @@
+when_1 = ((module.SEL == 0) ->("process_1#p_1: action '0';") (1)),
+when_1_if_1 = ((module.A == 1) ->("process_1#p_1: action 'A = 1';") (1)),
+if_1_asn_1 = ((1) ->("process_1#p_1: action 'OUTP <= 1';") (module.OUTP = 1)),
+if_1_asn_2 = ((1) ->("process_1#p_1: action 'OUTP <= 0';") (module.OUTP = 0)),
+when_2 = ((module.SEL == 1) ->("process_1#p_1: action '1';") (1)),
+when_2_asn_3 = ((1) ->("process_1#p_1: action 'OUTP <= B';") (module.OUTP = module.B)),
+when_3 = ((1) ->("process_1#p_1: action 'others';") (1)),
+when_3_asn_4 = ((1) ->("process_1#p_1: action 'OUTP <= 0';") (module.OUTP = 0)),

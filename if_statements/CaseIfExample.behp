@@ -1,0 +1,6 @@
+beh0 = Sensitive(process_1, sensitive(snvA) || sensitive(snvB) || sensitive(snvSEL)),
+process_1 = (when_1 + when_2 + when_3),
+when_1 = (when_1_if_1),
+when_1_if_1 = (if_1_asn_1 + !if_1_asn_2),
+when_2 = (when_2_asn_3),
+when_3 = (when_3_asn_4),
