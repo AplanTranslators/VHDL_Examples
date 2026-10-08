@@ -1,0 +1,7 @@
+if_1 = (((module.A == 1 && module.B == 1)) ->("P1#p_1: action '(A = 1 AND B = 1)';") (1)),
+if_1_asn_1 = ((1) ->("P1#p_1: action 'temp1 <= 1';") (p_1.temp1 = 1)),
+if_1_asn_2 = ((1) ->("P1#p_1: action 'temp1 <= 0';") (p_1.temp1 = 0)),
+if_2 = (((module.C == 1)) ->("P1#p_1: action '(C = 1)';") (1)),
+if_2_asn_3 = ((1) ->("P1#p_1: action 'temp2 <= 1';") (p_1.temp2 = 1)),
+if_2_asn_4 = ((1) ->("P1#p_1: action 'temp2 <= 0';") (p_1.temp2 = 0)),
+asn_5 = ((1) ->("P1#p_1: action 'RES3 <= temp1 OR temp2';") (module.RES3 = p_1.temp1 || p_1.temp2)),
